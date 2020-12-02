@@ -1,4 +1,4 @@
-var utils = require('../utils/files');
+var utils = require('../utils/files.js');
 
 let puzzle_input = utils.fromFileToArray(process.argv[2]).map(v => Number(v));
 
